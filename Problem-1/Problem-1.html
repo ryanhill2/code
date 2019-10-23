@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="Problem-1.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+<h1>Phone Directory</h1>
+<div id = "mainContainer">
+    <div id = "addContact">
+        <form>
+            <input id ="name" type="text"  placeholder="Contact Name">
+            <input id ="mobileNumber" type="number" placeholder=" Mobile Number">
+            <input id ="email" type="email" placeholder="Email">
+            <button id ="addContactButton" type="button" onclick="addContactFunction()">Add Contact</button>
+        </form>
+    </div>
+
+    <div id = "searchContact">
+        <form>
+            <h6>Search contact by Mobile No:</h6>
+            <input type="text" name="searchMobile">
+        </form>
+    </div>
+
+    <div id = "contactSummary">
+        <h4>Contacts Summary</h4>
+        <table id ="contacts">
+            <thread>
+                <tr id="tableRow">
+                    <th>Name</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thread>
+
+            <tbody id="tableData">
+
+            </tbody>
+
+        </table>
+    </div>
+
+
+</div>
+
+
+<script src="Problem-1.js"></script>
+</body>
+</html>

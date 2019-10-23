@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+
+form{
+    margin-top: 1.8rem;
+    text-align: center;
+}
+h6{
+    display: inline;
+}
+table{
+    width:100%;
+    border-spacing: 0
+}
+table, th, td, tr{
+    border: .1rem solid black
+}
+td, th{
+    width: 25rem;
+    height: 2.25rem;
+}
+tr:nth-child(even)
+{
+    background-color: #CCCCCC;
+}
+
+
+#addContact{
+    background-color: lightblue;
+    border-color: darkblue;
+    border-style: solid;
+    border-width: .15rem .15rem .15rem .15rem;
+    border-radius: .5rem;
+    height: 5rem;
+    margin: 2rem 8rem 5rem 8rem;
+}
+#searchContact{
+    margin: 2rem 8rem 5rem 8rem;
+}
+#contactSummary{
+    margin: 2rem 10rem 5rem 10rem;
+    text-align: center;
+}

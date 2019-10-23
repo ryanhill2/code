@@ -1,0 +1,77 @@
+#mainDiv{
+    margin: 2em 2em 2em 2em;
+}
+
+input[type=text]{
+    margin: 1em 1em 1em 1em;
+}
+
+#headerDiv{
+    text-align: center;
+}
+
+#userInput{
+    margin: 1em 5em 1em 1em;
+    height: 2rem;
+    width: 40rem;
+}
+
+#searchButton{
+    margin: 1em 1em 1em 5em;
+    height: 2rem;
+    width: 10rem;
+    border-radius: .5rem;
+    background-color: white;
+
+}
+#bodyDiv{
+    margin: 1em 5em 5em 5em;
+    text-align: center;
+}
+#userProfile{
+    float: left;
+    margin-left: 3em;
+}
+
+#userRepos{
+    float: right;
+    margin-right: 22em;
+}
+.profile-container{
+    width: 22rem;
+    text-align: left;
+    display: inline-grid;
+
+}
+
+.picture{
+    border-style: solid;
+    border-width: .1em;
+    height: 15rem;
+}
+.name{
+    border-style: solid;
+    border-width: .1em;
+    height: 2rem;
+}
+.username{
+    border-style: solid;
+    border-width: .1em;
+    height: 2rem;
+}
+.email{
+    border-style: solid;
+    border-width: .1em;
+    height: 2rem;
+}
+.location{
+    border-style: solid;
+    border-width: .1em;
+    height: 2rem;
+}
+.NumberOfGists{
+    border-style: solid;
+    border-width: .1em;
+    height: 2rem;
+}
+
